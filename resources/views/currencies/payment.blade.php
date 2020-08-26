@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="">
-  poka nichego
-</div>
+<currencies-payment></currencies-payment>
 @endsection

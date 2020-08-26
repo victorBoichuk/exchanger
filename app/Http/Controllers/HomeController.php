@@ -25,11 +25,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $user  = new User();
+      /*  $user  = new User();
         $isAdmin = $user->isAdmin(auth()->user());
         $y = '';
-        if ($isAdmin) $y = 'Пользователь является админом';
-        return view('home')->with('isAdmin', $y);
+        if ($isAdmin) $y = 'Пользователь является админом';*/
+      //  return view('home')->with('isAdmin', $y);
     }
 
+    public function getCryptoRates() {
+
+    }
 }
